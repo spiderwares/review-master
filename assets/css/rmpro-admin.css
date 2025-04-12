@@ -1,0 +1,792 @@
+/* Styles for the Review Master plugin admin page */
+.rmpro-wrap {
+    margin-top: 20px;
+}
+
+.spiderwares_page .card {
+    border-color: #eee;
+    max-width: 100%;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_nav .nav-tab-wrapper {
+    border-color: #eee;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_nav .nav-tab-wrapper a.nav-tab-active,
+.spiderwares_settings_page .spiderwares_settings_page_nav .nav-tab-wrapper a:hover {
+    background-color: #fafafa;
+    border-color: #fafafa;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_nav .nav-tab-wrapper a {
+    margin-left: 0;
+    margin-right: 7px;
+    padding: 10px 20px;
+    outline: none;
+    box-shadow: none;
+    border-color: #eee;
+    background-color: #e5e5e5;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_content {
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: #eee;
+    background-color: #fff;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_content table {
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    border-collapse: unset;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_content table tr th,
+.spiderwares_settings_page .spiderwares_settings_page_content table tr td {
+    padding: 15px 20px;
+    border-bottom: 1px dashed #eee;
+}
+
+.spiderwares_settings_page .spiderwares_settings_page_content table table tr:last-child th,
+.spiderwares_settings_page .spiderwares_settings_page_content table table tr:last-child td {
+    border-bottom: none;
+}
+
+
+.spiderwares_settings_page .spiderwares_settings_page_content table tr.submit p {
+    margin: 0;
+    padding: 0;
+}
+
+.rmpro-wrap p.submit {
+    padding: 15px 20px;
+}
+
+/* Grid Layout */
+.rmpro-title {
+    padding: 0px 20px;
+}
+.rmpro-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+    padding: 0px 20px;
+}
+
+.rmpro-grid-item {
+    padding: 24px;
+    background: #fff;
+    border: 1px solid #aaaaaa85;
+}
+
+.rmpro-grid-item-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rmpro-grid-item-header label {
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0;
+}
+
+.rmpro-toggle-category {
+    margin-left: 10px;
+}
+
+/* Modernizing Labels and Checkboxes */
+.description {
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Category Input Box */
+.rmpro-category-inputs {
+    margin-top: 20px;
+}
+
+.rmpro-category-add {
+    display: flex;
+    align-items: center;
+}
+
+.rmpro-category-input {
+    flex: 1;
+    padding: 10px 14px !important;
+    border: 1px solid #e0e0e0 !important;
+    border-radius: 6px !important;
+    font-size: 15px;
+    color: #333 !important;
+    margin-right: 12px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.rmpro-category-input:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+}
+
+/* Modern Button */
+.rmpro-add-category {
+    padding: 16px 23px;
+    background: #0073aa;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background 0.3s, box-shadow 0.3s;
+}
+
+.rmpro-add-category:hover {
+    background: #005a87;
+}
+
+.rmpro-add-category:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 115, 170, 0.2);
+}
+
+.rmpro-add-category:active {
+    background: #00407a;
+}
+
+/* Modern Sortable List */
+.rmpro-category-list {
+    padding: 0;
+    list-style-type: none;
+}
+
+.rmpro-category-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    transition: background 0.3s;
+}
+
+.rmpro-category-list li:hover {
+    background: #f9f9f9;
+}
+
+.rmpro-category-name {
+    flex: 1;
+}
+
+.rmpro-remove-category {
+    color: #d9534f;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 16px;
+}
+
+.rmpro-remove-category:hover {
+    text-decoration: underline;
+}
+
+/* Dragging and Sorting Cursors */
+.rmpro-category-list li {
+    cursor: grab;
+}
+
+.rmpro-category-list li:active,
+.rmpro-category-list li:focus {
+    cursor: grabbing;
+}
+
+/* Modern Switch Design */
+.rmpro-switch {
+    position: relative;
+    display: inline-block;
+    height: 24px;
+    display: flex;
+}
+
+.rmpro-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    display: none;
+}
+
+.rmpro-switch-label {
+    position: static;
+    cursor: pointer;
+    background-color: #ccc;
+    border-radius: 32px;
+    transition: background-color 0.3s;
+    width: 30px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    margin-right: 10px;
+}
+
+.rmpro-switch-label:before {
+    content: "";
+    position: absolute;
+    background-color: #fff;
+    border-radius: 50%;
+    transition: transform 0.3s;
+    width: 12px;
+    height: 12px;
+    left: 4px;
+    top: 4px;
+}
+
+.rmpro-switch input:checked+.rmpro-switch-label {
+    background-color: #0073aa;
+}
+
+.rmpro-switch input:checked+.rmpro-switch-label:before {
+    transform: translateX(14px);
+}
+
+span.rmpro-category-icon {
+    padding: 0px 5px;
+}
+
+
+.rmpro-switch+label {
+    margin-left: 60px;
+    /* Add space between the switch and label */
+    vertical-align: middle;
+    /* Align the label with the switch */
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/************ Table *************/
+
+
+.form-settings-table {
+    border-collapse: collapse;
+    background-color: #f9fafb;
+}
+
+.form-settings-table th,
+.form-settings-table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.form-settings-table th {
+    background-color: #f3f4f6;
+    color: #4b5563;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.form-settings-table tbody tr:hover {
+    background-color: #f1f5f9;
+}
+
+.rmpro-form-fields-table input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #d1d5db;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #1f2937;
+    box-sizing: border-box;
+}
+
+.rmpro-form-fields-table input[type="text"]:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+.rmpro-form-fields-table input[type="checkbox"] {
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+/***************** End Table ******************/
+
+
+/* star-ratings.css */
+.rmpro-rating-container {
+    position: relative;
+    display: inline-block;
+    width: 100px;
+    height: 17px;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='transparent' stroke='%23FFBD13' stroke-width='38' d='M259.216 29.942L330.27 173.92l158.89 23.087L374.185 309.08l27.145 158.23-142.114-74.698-142.112 74.698 27.146-158.23L29.274 197.007l158.89-23.088z' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 20px 100%;
+    background-position: 0 50%;
+}
+
+.rmpro-rating-stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFBD13' stroke='%23FFBD13' stroke-width='38' d='M259.216 29.942L330.27 173.92l158.89 23.087L374.185 309.08l27.145 158.23-142.114-74.698-142.112 74.698 27.146-158.23L29.274 197.007l158.89-23.088z' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: repeat-x;
+    background-size: 20px 100%;
+    background-position: 0 50%;
+}
+
+form.rmpro_review .rmpro-rating-container {
+    width: 140px; /* Adjust width to fit spacing */
+    height: 25px; /* Keep height unchanged */
+    background-size: 28px 25px; /* 25px star + 3px gap */
+    background-position: left center; /* Align first star */
+}
+
+form.rmpro_review .rmpro-rating-stars {
+    background-size: 28px 25px; 
+    background-position: left center; /* Align first star */
+}
+
+.rmpro-tooltip {
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+    z-index: 10;
+}
+
+
+.rmpro-tooltip td {
+    background-color: #333 !important;
+}
+
+.rmpro-rating-container:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.rmpro-tooltip-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.rmpro-tooltip-category {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.rmpro-tooltip-category-name {
+    font-weight: bold;
+}
+
+.rmpro-tooltip-average {
+    margin-top: 10px;
+}
+
+/* Tag Css for general settings */
+
+#notification-template-tags {
+    margin-top: 10px;
+}
+
+.tag {
+    display: inline-flex;
+    align-items: center;
+    background-color: #e1e1e1;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.tag button {
+    background: none;
+    border: none;
+    color: #a00;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    line-height: 1;
+}
+
+.tag button:hover {
+    color: #600;
+}
+
+/*---- Template Css ----*/
+#notification-template-options {
+    margin-bottom: 20px;
+}
+
+.description {
+    margin-bottom: 10px;
+}
+
+.rmpro-shortcode-wrapper .rmpro-shortcode {
+    padding: 0 20px 20px 20px;
+    border: 3px solid #c3c4c7;
+    margin-bottom: 15px;
+}
+
+.rmpro-rating-container:hover .rmpro-tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.rmpro-page span.approve {
+    display: inline;
+}
+
+.rmpro-page .rmpro-spam,
+.rmpro-page .row-actions .unapprove a {
+    color: #996800;
+}
+
+.rmpro-page .rmpro-spam th.check-column{
+    border-left: 4px solid #d63638; 
+}
+
+.rmpro-page .rmpro-spam th,
+.rmpro-page .rmpro-spam td {
+    background-color: #f8d7da;
+}
+
+.rmpro-page .rmpro-unapprove th.check-column {
+    border-left: 4px solid #ffbd13;
+}
+
+.rmpro-page .rmpro-unapprove th,
+.rmpro-page .rmpro-unapprove td {
+    background-color: #fcf9e8;
+}
+
+.rmpro-page th,
+.rmpro-page td {
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+}
+
+.rmpro-page .row-actions .approve a {
+    color: #007017;
+}
+
+tr#respondreview .flex-row {
+    display: flex;
+}
+
+tr#respondreview .flex-row textarea {
+    height: 7em;
+}
+
+#adminmenu .wp-menu-name span.rmpro-pending {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    margin: 1px 0 -1px 2px;
+    padding: 0 5px;
+    min-width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    background-color: #d63638;
+    color: #fff;
+    font-size: 11px;
+    line-height: 1.6;
+    text-align: center;
+    z-index: 26;
+}
+
+#adminmenu .wp-menu-name .rmpro-pending:has(.rmpro-pending-count-0) {
+    display: none;
+}
+
+.rmpro-post-content,
+.rmpro_review #title {
+    margin-bottom: 20px;
+}
+
+.rmpro_review .form-table td {
+    vertical-align: top;
+}
+
+/* Style for star rating */
+.rmpro-stars {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    gap: 3px;
+}
+.rmpro-stars input {
+    display: none;
+}
+.rmpro-stars label {
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+.rmpro-stars label img {
+    width: 25px;
+    height: 25px;
+    transition: opacity 0.3s;
+}
+.rmpro-stars input:checked ~ label img,
+.rmpro-stars label:hover img,
+.rmpro-stars label:hover ~ label img {
+    content: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath fill='%23FFBD13' stroke='%23FFBD13' stroke-width='38' d='M259.216 29.942L330.27 173.92l158.89 23.087L374.185 309.08l27.145 158.23-142.114-74.698-142.112 74.698 27.146-158.23L29.274 197.007l158.89-23.088z' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+/* Style for star rating end */
+
+#localization-messages input[type="text"] {
+    width: 650px;
+    padding: 2px 8px;
+}
+
+
+/* Single add/edit page */
+.rmpro_review table {
+    border-collapse: collapse;
+    background: #fff;
+    overflow: hidden;
+}
+
+.rmpro_review th,
+.rmpro_review td {
+    padding: 14px 18px;
+    text-align: left;
+    transition: background 0.3s ease-in-out;
+}
+
+.rmpro_review tbody tr:not(:last-child) th,
+.rmpro_review tbody tr:not(:last-child) td {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.rmpro_review .postbox input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    max-width: 500px;
+}
+
+.rmpro-subtable {
+    border-collapse: collapse;  
+    margin-top: 10px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.rmpro-subtable th, .rmpro-subtable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.rmpro-note {
+    margin: 0px !important;
+    color: #ED4337;
+    font-weight: 600;
+}
+
+.rmpro_review .postarea.rmpro-post-content {
+    margin-top: 20px;
+}
+/***End add/edit page design */
+
+/*  Tooltip Design start */
+.rmpro-tooltip table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.rmpro-tooltip td {
+    padding: 4px 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    color:white;
+}
+/*  Tooltip design end  */
+
+form.rmpro_review input[type=radio]:checked::before{
+    margin: .2rem;
+}
+
+.rmpro-setting-title {
+    font-size: 28px;
+}
+
+.rmpro-flex {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0 5px;
+    justify-content: space-between;
+}
+
+.rmpro-label {
+    font-size: 14px;
+}
+
+.rmpro-per-page input[type="number"] {
+    padding: 1px 10px;
+    max-width: 60px;
+    font-size: 14px;
+}
+
+textarea.regular-textarea {
+    width: 100%;
+}
+
+#shortcode-settings h1 {
+    padding: 0 20px;
+}
+
+.rmpro-accordion {
+    margin: 2rem auto;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+  
+.rmpro-accordion-item {
+    color: #111;
+    width: 49%;
+}
+  
+.rmpro-accordion-item-header {
+    padding: 0.5rem 3rem 0.5rem 1rem;
+    min-height: 3.5rem;
+    line-height: 1.25rem;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.rmpro-accordion-item-header img {
+    width: 28px;
+    margin-right: 5px;
+}
+  
+.rmpro-accordion-item-body-content {
+    padding: 1rem;
+    line-height: 1.5rem;
+    border-top: 1px solid #aaaaaa69;
+    background-color: #fff;
+}
+
+.rmpro-accordion-item-body-content {
+    font-size: 16px;
+}
+
+.rmpro-accordion-item-body-content .shortcode-heading {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.rmpro-accordion-item-body-content .shortcode-description {
+    font-size: 16px;
+}
+
+.rmpro-accordion-item-body-content .shortcode-item{
+    padding: 10px 0;
+}
+
+.rmpro-accordion-item-body-content .shortcode-container pre{
+    background-color: black;
+    color: #bd8288;
+    margin: 5px 0;
+    border-radius: 3px;
+    padding: 16px;
+}
+
+.rmpro-accordion-item-body-content .shortcode-container span {
+    color: #bf616a;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.rmpro-api-accordion {
+    border: 1px solid #ddd;
+    width: 100%;
+    margin: auto;
+}
+.rmpro-api-accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+.rmpro-api-accordion-button {
+    background-color: #f8f8f8;
+    color: #333;
+    padding: 20px 15px;
+    width: 100%;
+    text-align: left;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    position: relative;
+}
+.rmpro-api-accordion-button::after {
+    content: '+';
+    position: absolute;
+    right: 15px;
+    font-size: 18px;
+}
+.rmpro-api-accordion-button.active::after {
+    content: '−';
+}
+.rmpro-api-accordion-content {
+    display: none;
+    padding: 15px;
+    background: #fff;
+}
+.rmpro-api-accordion .api-box {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.rmpro-api-accordion .api-endpoint {
+    font-weight: bold;
+    font-size: 14px;
+    background: #222;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.rmpro-api-accordion table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+.rmpro-api-accordion th, .rmpro-api-accordion td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+.rmpro-api-accordion th {
+    background: #f4f4f4;
+}
+
+#review-categories .rmpro-notice {
+    padding: 0 20px;
+}
