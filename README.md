@@ -5,59 +5,86 @@
 **Requires at least:** 5.2  
 **Tested up to:** 6.7  
 **Requires PHP:** 7.4  
-**Version:** 1.0.0  
 **Stable tag:** 1.0.0  
-**License:** GPLv2 or later
-**License URI:** https://www.gnu.org/licenses/gpl-2.0.html
+**License:** GPLv2 or later  
+**License URI:** [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
 
 ## Description
 
-Review Master is a powerful plugin for WordPress that allows you to effortlessly collect and manage ratings across multiple categories. Customize rating criteria, display detailed reviews, and increase user engagement by showcasing category-specific feedback on your WordPress site. Perfect for businesses and content creators who want to gather comprehensive insights from their audience.
+**Review Master** is a powerful and easy-to-use plugin that helps you collect, manage, and display detailed user reviews and ratings across multiple categories. Whether you're a content creator, business owner, or service provider, this plugin gives you the tools to gather valuable feedback, showcase it beautifully, and improve user trust and engagement on your WordPress site.
 
-### Key Features:
-– Collect ratings and feedback across various categories
-– Customizable rating criteria to suit your needs
-– Display detailed reviews for each category
-– Increase user engagement with category-specific reviews
-– Easy integration with your existing WordPress setup
+Review Master also integrates with popular tools like **reCAPTCHA**, **hCaptcha**, **Akismet**, **Slack**, and **Discord** for enhanced spam protection, team collaboration, and instant notification of new reviews.
+
+## Key Features
+
+– Collect user ratings and reviews across multiple categories  
+– Define and customize rating criteria as per your requirements  
+– Display category-specific feedback with clean, modern UI  
+– Prevent spam with integrations like Google reCAPTCHA, hCaptcha, and Akismet  
+– Receive review notifications on Slack or Discord  
+– Fully compatible with most WordPress themes  
+– Lightweight and performance-optimized  
+– Developer-friendly with hooks and filters
 
 ## Installation
 
-1. Upload the plugin files to the `/wp-content/plugins/review-master-pro/` directory, or install the plugin directly from the WordPress plugin screen.
-2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Configure the plugin settings in the 'Review Master' settings page in the WordPress dashboard.
+1. Upload the plugin files to the `/wp-content/plugins/review-master-pro/` directory, or install the plugin directly from the WordPress plugin screen.  
+2. Activate the plugin through the 'Plugins' menu in WordPress.  
+3. Navigate to the 'Review Master' settings page in your WordPress dashboard to configure your review categories and criteria.
 
-## Frequently Asked Questions (FAQ)
+## Frequently Asked Questions
 
-### How can I configure the rating criteria?
-You can configure the rating criteria from the plugin settings under the 'Review Master' section. This allows you to set up different categories and criteria for users to rate.
+### How can I configure the rating criteria?  
+Go to the plugin settings under 'Review Master' and define your own custom categories and rating parameters based on your site's needs.
 
-### Can I display reviews in specific categories?
-Yes, Review Master allows you to display category-specific reviews on your WordPress site, helping you gather detailed insights from your audience on various topics.
+### Can I display reviews based on specific categories?  
+Yes. The plugin allows you to show reviews filtered by categories or criteria, ideal for multi-faceted products, services, or content.
 
-### Is this plugin compatible with my WordPress theme?
-Review Master works seamlessly with most WordPress themes. If you experience any compatibility issues, feel free to reach out to our support team at support@spiderwares.com.
+### Does this plugin protect against spam reviews?  
+Absolutely. Review Master includes integrations with Google reCAPTCHA, hCaptcha, and Akismet to help prevent spam or bot submissions.
 
-## Changelog
+### Can I get notified of new reviews in real time?  
+Yes. Review Master can send instant notifications via Slack or Discord when a new review is submitted, keeping your team informed.
 
-### 1.0.0
-– Initial release of Review Master plugin.
-
-## Upgrade Notice
-
-### 1.0.0
-– This is the first version of the plugin.
+### Is the plugin compatible with all WordPress themes?  
+The plugin is built to work smoothly with most WordPress themes. For any compatibility issues, please contact our support team.
 
 ## Screenshots
 
-1. Screenshot of the plugin settings page.
-2. Example of reviews displayed on the frontend.
-3. Rating categories and criteria customization options.
+1. Review Master settings page in the WordPress dashboard  
+2. Frontend display of user reviews  
+3. Category and rating criteria customization interface
+
+## Changelog
+
+### 1.0.0  
+* Initial release of Review Master
+
+## Upgrade Notice
+
+### 1.0.0  
+This is the first stable release of Review Master. Install now to start collecting and showcasing user reviews.
 
 ## Support
 
-For support and inquiries, please contact us at [support@spiderwares.com](mailto:support@spiderwares.com) or visit our website at [https://spiderwares.com](https://spiderwares.com).
+Need help? Have questions or suggestions?  
+📧 Email us at [support@spiderwares.com](mailto:support@spiderwares.com)  
+🌐 Visit our website: [https://spiderwares.com](https://spiderwares.com)
+
+## Third-Party Services and APIs
+
+This plugin optionally integrates with the following third-party services:
+
+– **Google reCAPTCHA** – [https://www.google.com/recaptcha](https://www.google.com/recaptcha)  
+– **hCaptcha** – [https://www.hcaptcha.com](https://www.hcaptcha.com)  
+– **Akismet** – [https://akismet.com](https://akismet.com)  
+– **Slack** – [https://slack.com](https://slack.com)  
+– **Discord** – [https://discord.com](https://discord.com)
+
+These integrations are optional and require valid API keys to be enabled from the settings panel.
 
 ## License
 
-Review Master is licensed under the GPLv2 or later. You are free to modify and redistribute it under the same license terms. For more details, check the full license at [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html).
+This plugin is licensed under the GNU General Public License v2.0 or later.  
+You may freely modify and redistribute it under the same license terms.  
+Read the full license here: [https://www.gnu.org/licenses/gpl-2.0.html](https://www.gnu.org/licenses/gpl-2.0.html)
